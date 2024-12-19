@@ -23,22 +23,15 @@ public class Problema01 {
         String[] estudiantes = {"Jerry Ponce", "Gabriela Lewis", "David Bell"};
         double[] sumaNotas = new double[3];
         double[] promedios = new double[3];
-        // 0 - 5.9 Bueno
-        // 6 - 8.9 Muy Bueno
-        // 9 - 10 Sobresaliente
-                    
+       
         double suma;
         String reporte = "";
         
-        for (int i = 0; i < notas.length; i++) { // 0<3
+        for (int i = 0; i < notas.length; i++) { 
             suma = 0; // 0
-            for (int j = 0; j < notas[i].length; j++) { // 0<notas[0].length
-                                                        // 0<4 // 1<4 // 2<4 // 3<4 // 4<4
+            for (int j = 0; j < notas[i].length; j++) { 
                 suma = suma + notas[i][j];
-                     // 0 + notas[0][0] // 0 + 9 // 9
-                     // 9 + notas[0][1] // 9 + 10 // 19
-                     // 19 + notas[0][2] // 19 + 7 // 26
-                     // 26 + notas[0][3] // 26 + 8 // 34
+                     
             }
             sumaNotas[i] = suma; // < >
             double promedio= suma/notas[i].length;

@@ -5,6 +5,7 @@
  */
 package paquete2;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 /**
@@ -14,6 +15,7 @@ import java.util.Scanner;
 public class Problema02 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
+        entrada.useLocale(Locale.US);
         
         String [] vendedores= {"Jessica Cole", "Robert Wallace"};
         int [][] ventas = new int[2][5];

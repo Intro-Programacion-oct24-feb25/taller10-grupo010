@@ -5,6 +5,7 @@
  */
 package paquete4;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 /**
@@ -14,6 +15,7 @@ import java.util.Scanner;
 public class Problema04 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
+        entrada.useLocale(Locale.US);
         
         double [][] datos=new double[2][2];
         double valor;
