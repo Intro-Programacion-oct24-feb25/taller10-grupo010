@@ -4,6 +4,8 @@
  */
 package paquete1;
 
+import java.util.Scanner;
+
 /**
  *
  * @author reroes
