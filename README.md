@@ -1,4 +1,7 @@
 # Taller 10 (Laboratorio):
+## Integrantes:
+* NAULA ZHUNAULA JHANDRY JOSUE
+* VILLA CAMACHO BRYAN MICHAEL
 ## Construcción de programas usando arreglos bidimensionales
 
 * Lenguaje de programación : Java
